@@ -49,7 +49,7 @@ export default Component.extend({
    * User defined map of Swiper events
    * @type {Object}
    */
-  events: computed(() => Object.create(null)),
+  events: {},
 
   /**
    * Abstraction to invoke `Swiper.update`
@@ -98,7 +98,7 @@ export default Component.extend({
    * @public
    * @type {Object}
    */
-  options: computed(() => ({})),
+  options: {},
 
   /**
    * Get Swiper options from attributes
